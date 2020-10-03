@@ -1,0 +1,218 @@
+:root {
+  --accent-color: #2196f3;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+/*====его дети и предки будут наследовать этот шрифт,
+а стайл это стн размер ====*/
+/*=================HEADER============*/
+.header-adress {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  list-style: none;
+}
+
+/*сброс подчеркивания ссылок*/
+
+.link {
+  text-decoration: none;
+}
+
+.titel-style {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #000000;
+}
+.titel-style-color {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+/*сброс для адресса,т.к. в браузере он по умолчанию стоит италк-с наклоном*/
+.adress {
+  font-style: normal;
+}
+/*настройка верхнего блока навигации*/
+/*стиль телефона вверхней панели*/
+.navigation-list-link,
+.header-tel-link,
+.header-mail-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+}
+
+/*===================================BODY=======================*/
+
+/* настройки кнопки*/
+.modal-button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+/*ставим ховер чтобы выделялся при наведении, и форкус если эллемент интерактивный,
+ а ниже цвет который должен преобретать*/
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.navigation-list-link:active,
+.header-tel-link:hover,
+.header-tel-link:focus,
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: #2196f3;
+}
+
+.active {
+  color: var(--accent-color);
+}
+
+/*позаголовки блока №2*/
+/*text-transform: uppercase; --это когда все буквы надо сделать заглавными*/
+.subtitel {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 142;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #212121;
+}
+/*описание блоков №2*/
+.description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.hero-titel {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 364;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  /*color: #ffffff;*/
+}
+.subtitle-description {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 166;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/*====================ABOUT WORKERS==================*/
+.about-person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 187;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.about-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 187;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.cotact-list-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 714;
+  letter-spacing: 0.03em;
+
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/*==================PORTFOLIO================================*/
+.modal-button-item {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 165;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var (--accent-color);
+  color: #212121;
+}
+
+modal-button-list:hover,
+modal-button-list:focus {
+  background-color: #2196f3;
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.content-portfolio-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+.gallery-discription {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 875;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
