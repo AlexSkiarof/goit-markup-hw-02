@@ -11,9 +11,10 @@
 а стайл это стн размер ====*/
 /*=================HEADER============*/
 .header-adress {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 }
 
@@ -28,21 +29,21 @@
 }
 
 .titel-style {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
   letter-spacing: 0.03em;
 
   color: #000000;
 }
 .titel-style-color {
-  font-family: Raleway;
+  font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 
   color: #2196f3;
@@ -57,9 +58,10 @@
 .navigation-list-link,
 .header-tel-link,
 .header-mail-link {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1.1;
   letter-spacing: 0.02em;
 
   color: #000000;
@@ -69,11 +71,11 @@
 
 /* настройки кнопки*/
 .modal-button {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.8;
 
   display: flex;
   align-items: center;
@@ -104,9 +106,10 @@
 /*позаголовки блока №2*/
 /*text-transform: uppercase; --это когда все буквы надо сделать заглавными*/
 .subtitel {
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 14px;
-  line-height: 1, 142;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -114,11 +117,11 @@
 }
 /*описание блоков №2*/
 .description {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 
   letter-spacing: 0.03em;
 
@@ -126,9 +129,10 @@
 }
 
 .hero-titel {
+  font-family: "Roboto";
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 364;
+  line-height: 1.3;
 
   text-align: center;
   letter-spacing: 0.06em;
@@ -137,9 +141,10 @@
   /*color: #ffffff;*/
 }
 .subtitle-description {
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 36px;
-  line-height: 1, 166;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -148,18 +153,20 @@
 
 /*====================ABOUT WORKERS==================*/
 .about-person-name {
+  font-family: "Roboto";
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 187;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 
   color: #212121;
 }
 .about-profession {
+  font-family: "Roboto";
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 187;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
 
@@ -167,10 +174,11 @@
 }
 
 .cotact-list-link {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.1;
   letter-spacing: 0.03em;
 
   color: rgba(0, 0, 0, 0.6);
@@ -178,26 +186,31 @@
 
 /*==================PORTFOLIO================================*/
 .modal-button-item {
-  font-family: Roboto;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 165;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  background-color: var (--accent-color);
   color: #212121;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border-color: #ffffff;
 }
 
-modal-button-list:hover,
-modal-button-list:focus {
+.modal-button-item:hover,
+.modal-button-item:focus {
   background-color: #2196f3;
 
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+
+  color: #ffffff;
 }
 .content-portfolio-name {
+  font-family: "Roboto";
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -208,10 +221,11 @@ modal-button-list:focus {
   color: #212121;
 }
 .gallery-discription {
+  font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.8;
   letter-spacing: 0.03em;
 
   color: #757575;
